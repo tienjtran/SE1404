@@ -25,4 +25,11 @@ public class MyToys {
         }
         return product;
     }
+    
+    public static long total(int n) {
+        if (n == 1) {
+            return 1;
+        }
+        return n + total(n - 1);
+    }
 }
