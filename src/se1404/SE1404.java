@@ -24,7 +24,7 @@ public class SE1404 {
         System.out.println("6! = " + MyToys.cF(0)); // expected 720
         System.out.println("6! = " + MyToys.cF(-5)); // expected 720
         // chui user dua tham so ca tron 
-
+        
     }
 
 }
